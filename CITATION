@@ -1,0 +1,8 @@
+@MISC{benchmarkAO,
+key = {Benchmark for AO},
+author = {Stadler B., Ramlau R.},
+title = {{AO-repo} -- {Benchmark for high-performance algorithms in adaptive optics control}},
+month = June,
+year = 2021,
+note = {see also: \url{https://github.com/ROMSOC/example-repo-0.1}}
+}
