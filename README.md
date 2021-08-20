@@ -1,4 +1,5 @@
 # Benchmark for high-performance algorithms in adaptive optics control
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171804.svg)](https://doi.org/10.5281/zenodo.5171804)
 
 ## Summary
 This benchmark can be used for applications in high-performance computing for adaptive optics control. 
