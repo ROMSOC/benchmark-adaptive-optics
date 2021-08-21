@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Stadler"
+  given-names: "Bernadett"
+  orcid: "https://orcid.org/0000-0002-5310-2970"
+- family-names: "Ramlau"
+  given-names: "Ronny"
+  orcid: "https://orcid.org/0000-0002-0277-9615"
+title: "AO-repo -- Benchmark for high-performance algorithms in adaptive optics control"
+version: 1.0.0
+doi: 10.5281/zenodo.5171804
+date-released: 2021-01-06
+url: "https://github.com/ROMSOC/benchmark-adaptive-optics"
