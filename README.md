@@ -19,7 +19,7 @@ docker build -t benchmark-adaptive-optics .
 ```
 and for running it locally:
 ```bash
-docker run -u 0 -it --rm -p 8888:8888 benchmark-adaptive-optics jupyter-lab --ip=0.0.0.0 --port=8888 --allow-root
+docker run -it --rm -p 8888:8888 benchmark-adaptive-optics jupyter-lab --ip=0.0.0.0 --port=8888 --allow-root
 ```
 
 Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud. For instance, the benchmark is available at:
