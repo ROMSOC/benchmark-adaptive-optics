@@ -1,3 +1,5 @@
+<img src="images/romsoclogo-logo.png" alt="ROMSOC logo"  width="150"/>
+
 # Benchmark for high-performance algorithms in adaptive optics control
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171804.svg)](https://doi.org/10.5281/zenodo.5171804)
 
