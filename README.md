@@ -1,7 +1,7 @@
 <img src="images/romsoclogo-logo.png" alt="ROMSOC logo"  width="150"/>
 
 # Benchmark for high-performance algorithms in adaptive optics control
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171804.svg)](https://doi.org/10.5281/zenodo.5171804)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171804.svg)](https://doi.org/10.5281/zenodo.5171804) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-adaptive-optics/HEAD?labpath=Benchmark.ipynb)
 
 ## Summary
 This benchmark can be used for applications in high-performance computing for adaptive optics control. 
