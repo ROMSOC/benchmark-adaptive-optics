@@ -12,6 +12,19 @@ This is a reduced benchmark case, which implements the MVM algorithm widely used
 ## Directory structure
 In the directory source you can find all source files required to run the benchmark test. The directory benchmark contains the input and output data for the specific example. In the directory documentation you can find a PDf file with a detailed step-by-step description of the benchmark case.
 
+## Run Jupyter notebooks
+The entire benchmark repository can be executed in a provided Docker container where a full installation of Intel OneAPI is available. Once you have clone or downloaded this repository, to build the container just type
+```bash
+docker build -t benchmark-adaptive-optics . 
+```
+and for running it locally:
+```bash
+docker run -u 0 -it --rm -p 8888:8888 benchmark-adaptive-optics jupyter-lab --ip=0.0.0.0 --port=8888 --allow-root
+```
+
+Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud. For instance, the benchmark is available at:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-adaptive-optics/HEAD?labpath=Benchmark.ipynb). Please, notice that mybinder cloud computations are limited to 2GB of RAM memory.
+
 ## Disclaimer
 In downloading this SOFTWARE you are deemed to have read and agreed to the following terms:
 This SOFTWARE has been designed with an exclusive focus on civil applications. It is not to be used
