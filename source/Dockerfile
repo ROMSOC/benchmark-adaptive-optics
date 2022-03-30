@@ -12,7 +12,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install cmake and g++
 RUN apt-get update --yes  && \
-    apt-get install --yes --no-install-recommends g++ cmake python3-pip && \
+    apt-get install --yes --no-install-recommends g++ cmake make python3-pip libeigen3-dev && \
     apt-get --yes clean          && \
     apt-get --yes autoremove     && \
     rm -Rf /var/lib/apt/lists/*
