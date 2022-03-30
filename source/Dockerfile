@@ -1,4 +1,4 @@
-# Indicate the Intel OneApi reference image
+# Starting from a Ubuntu 20.04 installation
 FROM ubuntu:20.04
 
 ENV LAST_UPDATED=2022-03-01
